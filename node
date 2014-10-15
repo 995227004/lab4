@@ -1,0 +1,14 @@
+package greedysnake_cx;
+
+public class Node {
+ int x=0;
+ int y=0;
+ 
+ int nodewidth;
+ int  nodeheight; 
+ Node(int x,int y){
+  this.x=x;     //this.x 指的是 public int x=0; 这个引用；
+
+  this.y=y;
+ }
+}
